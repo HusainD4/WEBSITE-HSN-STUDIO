@@ -1,0 +1,165 @@
+/* css/styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa;
+    color: #333;
+}
+
+header {
+    background-color: #0099cc; /* Biru muda */
+    color: #fff;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header .logo img {
+    height: 50px;
+    padding-left: 20px;
+}
+section .logo2 img{
+    height: 50px;
+}
+.logo2 {
+    display: flex;
+    justify-content: center; /* Untuk horizontal alignment di tengah */
+    align-items: center; /* Untuk vertical alignment di tengah */
+}
+
+.logo2 img {
+    height: 50px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    background-color: #ff66cc; /* Pink */
+    text-decoration: none;
+}
+
+section.deskripsi,
+section.produk,
+section.terimakasih,
+section.media-partner {
+    padding: 20px;
+    background-color: #e0f7fa; /* Warna latar biru muda */
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0099cc;
+}
+
+section p {
+    text-align: center;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.produk-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.produk-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: calc(33% - 40px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.produk-item:hover {
+    transform: translateY(-5px);
+}
+
+.produk-item h3 {
+    margin-top: 0;
+    color: #0099cc;
+}
+
+.produk-item p {
+    margin: 10px 0;
+    color: #555;
+}
+
+.produk-item button {
+    background-color: #0099cc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.produk-item button:hover {
+    background-color: #ff66cc;
+}
+
+.chat {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.chat a img {
+    height: 50px;
+}
+
+
+.partner-item {
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+}
+section.media-partner{
+    background-color: pink;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+footer {
+    background-color: #0099cc;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}

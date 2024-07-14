@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - HSN Studio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-3Z18kl3TTr82FQZQZgJnjTf8+6J01g4Mv5UJ1e9b/6/Z2VnSK9rrj96G5Tz8cMkIzOZvZUzrXOJZoo4j2HlD5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="judul">
+        <img src="image/logoku.svg" alt="Logo">
+        <h1>HSN Studio</h1>
+    </header>
+    <marquee style="padding: 5px; background-color: rgb(247, 0, 255); color: rgb(0, 0, 0); font-size: 10px;">SELAMAT DATANG DI WEBSITE RESMI HSN STUDIO</marquee>
+    
+    <section class="navbar">
+        <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+        <div class="brand">HSN Studio</div>
+        <nav>
+            <div class="brand-menu">HSN STUDIO - MENU</div>
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </section>
+
+    <main class="container3">
+        <div>
+            <h1>Portfolio</h1>
+            <p>Berikut adalah beberapa proyek terbaru kami yang mencerminkan kualitas dan kreativitas tim HSN Studio. Kami bangga dengan hasil kerja kami dan senang berbagi dengan Anda.</p>
+            <div class="portfolio-item">
+                <h2>Proyek 1</h2>
+                <img src="image/project1.jpg" alt="Proyek 1">
+                <p>Deskripsi singkat tentang proyek ini dan hasil yang dicapai.</p>
+            </div>
+            <div class="portfolio-item">
+                <h2>Proyek 2</h2>
+                <img src="image/project2.jpg" alt="Proyek 2">
+                <p>Deskripsi singkat tentang proyek ini dan hasil yang dicapai.</p>
+            </div>
+            <div class="portfolio-item">
+                <h2>Proyek 3</h2>
+                <img src="image/project3.jpg" alt="Proyek 3">
+                <p>Deskripsi singkat tentang proyek ini dan hasil yang dicapai.</p>
+            </div>
+            <!-- Tambahkan lebih banyak item portofolio sesuai kebutuhan -->
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 HSN Studio. All Rights Reserved.</p>
+            <div class="social-icons">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            var navbar = document.querySelector('section.navbar');
+            navbar.classList.toggle('open');
+        }
+    </script>
+</body>
+</html>

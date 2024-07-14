@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - HSN Studio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-3Z18kl3TTr82FQZQZgJnjTf8+6J01g4Mv5UJ1e9b/6/Z2VnSK9rrj96G5Tz8cMkIzOZvZUzrXOJZoo4j2HlD5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="judul">
+        <img src="image/logoku.svg" alt="Logo">
+        <h1>HSN Studio</h1>
+    </header>
+    <marquee style="padding: 5px; background-color: rgb(247, 0, 255); color: rgb(0, 0, 0); font-size: 10px;">SELAMAT DATANG DI WEBSITE RESMI HSN STUDIO</marquee>
+    
+    <section class="navbar">
+        <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+        <div class="brand">HSN Studio</div>
+        <nav>
+            <div class="brand-menu">HSN STUDIO - MENU</div>
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </section>
+
+    <main class="container2" style="padding-top: 50px; padding-left: 20px; padding-right: 30px;">
+        <div class="service-box">
+            <h1 class="produk">Layanan Kami</h1>
+            <div class="services">
+                <div class="service-item">
+                    <p>Foto Event/Acara</p>
+                    <button class="order-button">Order</button>
+                </div>
+                <div class="service-item">
+                    <p>Foto Keluarga</p>
+                    <button class="order-button">Order</button>
+                </div>
+                <div class="service-item">
+                    <p>Foto Wisuda</p>
+                    <button class="order-button">Order</button>
+                </div>
+                <div class="service-item">
+                    <p>Foto Patner</p>
+                    <button class="order-button">Order</button>
+                </div>
+                <div class="service-item">
+                    <p>Foto pre-Wedding</p>
+                    <button class="order-button">Order</button>
+                </div>
+                <div class="service-item">
+                    <p>Foto Product</p>
+                    <button class="order-button">Order</button>
+                </div>
+                <div class="service-item">
+                    <p>Google Drive</p>
+                    <button class="order-button">Order</button>
+                </div>
+                <div class="service-item">
+                    <p>Cetak Foto</p>
+                    <button class="order-button">Order</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 HSN Studio. All Rights Reserved.</p>
+            <div class="social-icons">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            var navbar = document.querySelector('section.navbar');
+            navbar.classList.toggle('open');
+        }
+    </script>
+</body>
+</html>
